@@ -7,7 +7,7 @@ const {
   GraphQLList,
   GraphQLNonNull
 } = require("graphql");
-const Axios = require("Axios");
+const Axios = require("axios");
 
 // Rocket Type
 const RocketType = new GraphQLObjectType({
